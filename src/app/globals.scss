@@ -105,3 +105,18 @@ a {
     color-scheme: dark;
   }
 }
+
+// ------------ ours ------------ //
+
+@font-face {
+  font-family: 'Avant Garde Book BT';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../../public/fonts/CLAYO-Semibold.ttf') format('clayo');
+}
+
+body {
+  margin: 0px;
+  background-color: #0f0f0f;
+  font-family: 'Avant Garde Book BT';
+}
