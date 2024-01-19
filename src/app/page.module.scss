@@ -61,14 +61,24 @@
   }
 }
 
+.position1Hovered,
 .position1 {
   position: absolute;
   font-size: 128px;
-  color: #D80530;
+  line-height: 100%;
+  color: white;
   left: 48px;
   top: 48px;
   width: 600px;
   z-index: 1;
+}
+
+.position1 {
+  color: white;
+}
+
+.position1Hovered {
+  color: #D80530;
 }
 
 .position2 {
@@ -91,7 +101,23 @@
   }
 }
 
+.navbarHovered,
+.navbar {
+  position: absolute;
+  top: 48px;
+  right: 48px;
+}
+
+.navbar {
+  color: white;
+}
+
+.navbarHovered {
+  color: #D80530;
+}
+
 @media (max-width: 1200px) {
+  .position1Hovered,
   .position1 {
     font-size: 64px;
     width: 300px;
@@ -108,9 +134,15 @@
       font-size: 24px;
     }
   }
+
+  .navbar {
+    margin-top: -24px;
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 600px) {
+  .position1Hovered,
   .position1 {
     opacity: 0;
   }

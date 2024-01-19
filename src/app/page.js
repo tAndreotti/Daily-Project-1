@@ -28,7 +28,18 @@ export default function Home() {
             onMouseLeave={() => {
               setIsHovered(false);
             }}
-          ></div>
+          >
+            <p className={styles.position1}>EVERY SCENT HAS AN ORIGIN</p>
+            <div className={styles.navbar}>
+              <a href="https://tandreotti.cloud/">Profile</a>
+              <span> • </span>
+              <a href="https://dribbble.com/tandreotti">Projects</a>
+              <span> • </span>
+              <a href="mailto:tandreotti.dev@gmail.com?subject=Contact via sakura project">
+                Contact
+              </a>
+            </div>
+          </div>
         </div>
       </motion.div>
 
@@ -37,7 +48,7 @@ export default function Home() {
           <div className={styles.image}></div>
         </div>
       </div>
-      <p className={styles.position1}>EVERY SCENT HAS AN ORIGIN</p>
+      <p className={styles.position1Hovered}>FOLLOW THE SPRING SCENTS</p>
       <div className={styles.position2}>
         <span>IKIGAI • HANAMI • KOMOREBI</span>
         <p>
@@ -50,6 +61,15 @@ export default function Home() {
           blossoming sakuras, our &lsquo;ikigai&lsquo; is also revealed in the
           constant pursuit of growth and renewal.&rdquo;;
         </p>
+      </div>
+      <div className={styles.navbarHovered}>
+        <a href="https://tandreotti.cloud/">Profile</a>
+        <span> • </span>
+        <a href="https://dribbble.com/tandreotti">Projects</a>
+        <span> • </span>
+        <a href="mailto:tandreotti.dev@gmail.com?subject=Contact via sakura project">
+          Contact
+        </a>
       </div>
     </main>
   );
