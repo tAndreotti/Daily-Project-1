@@ -61,6 +61,67 @@
   }
 }
 
+.main2 {
+  height: 100vh;
+  background-color: #81C1ED;
+
+  .mask,
+  .body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #afa18f;
+    font-size: 64px;
+    line-height: 66px;
+    cursor: default;
+    z-index: 999;
+
+    .bgImage {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100vh;
+
+      .image {
+        width: 50vh;
+        height: 70vh;
+      }
+    }
+
+    span {
+      color: #D80530;
+    }
+  }
+
+  .body {
+
+    .bgImage {
+      background-image: url('../../public/images/firstMain.jpg');
+    }
+  }
+
+  .mask {
+
+    .bgImage {
+      background-image: url('../../public/images/secondMain.jpg');
+    }
+  }
+
+  .mask {
+    mask-image: url('../../public/mask2.svg');
+    mask-repeat: no-repeat;
+    mask-size: 40px;
+    background: #D80530;
+    position: absolute;
+    color: black;
+  }
+}
+
 .position1Hovered,
 .position1 {
   position: absolute;
@@ -114,6 +175,16 @@
 
 .navbarHovered {
   color: #D80530;
+}
+
+.position3 {
+  color: #D80530;
+  text-align: center;
+}
+
+.position4 {
+  color: white;
+  text-align: center;
 }
 
 @media (max-width: 1200px) {

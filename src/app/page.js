@@ -48,7 +48,7 @@ export default function Home() {
           <div className={styles.image}></div>
         </div>
       </div>
-      <p className={styles.position1Hovered}>FOLLOW THE SPRING SCENTS</p>
+      <p className={styles.position1Hovered}>EVERY SCENT HAS AN ORIGIN</p>
       <div className={styles.position2}>
         <span>IKIGAI • HANAMI • KOMOREBI</span>
         <p>
@@ -59,7 +59,7 @@ export default function Home() {
           they remind us of life&lsquo;s fleeting beauty and the importance of
           finding meaning in every moment. Spring is a reminder that, like
           blossoming sakuras, our &lsquo;ikigai&lsquo; is also revealed in the
-          constant pursuit of growth and renewal.&rdquo;;
+          constant pursuit of growth and renewal.&rdquo;
         </p>
       </div>
       <div className={styles.navbarHovered}>
